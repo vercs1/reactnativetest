@@ -51,18 +51,18 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
-    backgroundColor: '#DCD7C9', // Light beige background color
+    backgroundColor: '#DCD7C9', 
   },
   listItem: {
     marginBottom: 16,
   },
   titleText: {
-    color: '#EFE9D5', // Dark greyish-green for the title
+    color: '#EFE9D5', 
   },
   subtitleText: {
-    color: '#EFE9D5', // Medium greenish-grey for subtitles
+    color: '#EFE9D5', 
   },
   bodyText: {
-    color: '#A27B5C', // Warm brownish color for body text
+    color: '#A27B5C', 
   },
 });

@@ -39,7 +39,7 @@ export default function AboutScreen() {
           This project is open-source, and we welcome contributions! Check out the repository on
           GitHub to learn how you can help improve it.
         </ThemedText>
-        <ExternalLink href="https://github.com/your-repo">
+        <ExternalLink href="https://github.com/vercs1/reactnativetest">
           <ThemedText style={styles.linkText}>Visit our GitHub</ThemedText>
         </ExternalLink>
       </Collapsible>
@@ -51,23 +51,23 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
-    backgroundColor: '#DCD7C9', // Light beige background color
+    backgroundColor: '#DCD7C9', 
   },
   titleContainer: {
     marginBottom: 16,
   },
   titleText: {
-    color: '#EFE9D5', // Dark greyish-green for the title
+    color: '#EFE9D5', 
     fontSize: 24,
     fontWeight: 'bold',
   },
   bodyText: {
-    color: '#3F4F44', // Medium greenish-grey for the body text
+    color: '#3F4F44',
     fontSize: 16,
     marginBottom: 8,
   },
   linkText: {
-    color: '#A27B5C', // Warm brownish color for links
+    color: '#A27B5C', 
     fontSize: 16,
     textDecorationLine: 'underline',
   },
